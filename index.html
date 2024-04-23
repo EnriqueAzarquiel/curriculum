@@ -4,24 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae - [Tu Nombre]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            margin-bottom: 10px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .contact-info {
-            margin-bottom: 20px;
-        }
-        .contact-info p {
-            margin: 5px 0;
         }
         .section {
             margin-bottom: 30px;
@@ -30,67 +16,78 @@
             border-bottom: 2px solid #333;
             padding-bottom: 5px;
         }
-        .section ul {
-            padding-left: 20px;
+        .contact-info p {
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Curriculum Vitae</h1>
-        <h2>[Tu Nombre]</h2>
+    <div class="container mt-4">
+        <div class="text-center mb-4">
+            <h1 class="mb-0">Curriculum Vitae</h1>
+            <h2>[Tu Nombre]</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section">
+                    <h2>Contacto</h2>
+                    <div class="contact-info">
+                        <p><strong>Teléfono:</strong> [Tu Teléfono]</p>
+                        <p><strong>Email:</strong> [Tu Email]</p>
+                        <p><strong>Dirección:</strong> [Tu Dirección]</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Educación</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h3>Nombre del Título o Curso</h3>
+                            <p><strong>Institución:</strong> Nombre de la Institución</p>
+                            <p><strong>Fecha de Graduación:</strong> Mes y Año</p>
+                        </li>
+                        <!-- Agrega más elementos <li> para educación adicional si es necesario -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="section">
+                    <h2>Experiencia Laboral</h2>
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <h3>Nombre del Trabajo Actual</h3>
+                            <p><strong>Empresa:</strong> Nombre de la Empresa</p>
+                            <p><strong>Fecha:</strong> Fecha de Inicio - Fecha de Finalización</p>
+                            <p><strong>Descripción:</strong> Breve descripción de tus responsabilidades.</p>
+                        </div>
+                        <!-- Agrega más elementos <div class="list-group-item"> para trabajos anteriores si es necesario -->
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Habilidades</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Primera habilidad</li>
+                        <li class="list-group-item">Segunda habilidad</li>
+                        <li class="list-group-item">Tercera habilidad</li>
+                        <!-- Agrega más habilidades si es necesario -->
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Idiomas</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Idioma 1 - Nivel</li>
+                        <li class="list-group-item">Idioma 2 - Nivel</li>
+                        <!-- Agrega más idiomas si es necesario -->
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="contact-info">
-        <p>Teléfono: [Tu Teléfono]</p>
-        <p>Email: [Tu Email]</p>
-        <p>Dirección: [Tu Dirección]</p>
-    </div>
-
-    <div class="section">
-        <h2>Experiencia Laboral</h2>
-        <ul>
-            <li>
-                <h3>Nombre del Trabajo Actual</h3>
-                <p><strong>Empresa:</strong> Nombre de la Empresa</p>
-                <p><strong>Fecha:</strong> Fecha de Inicio - Fecha de Finalización</p>
-                <p><strong>Descripción:</strong> Breve descripción de tus responsabilidades.</p>
-            </li>
-            <!-- Agrega más elementos <li> para trabajos anteriores si es necesario -->
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Educación</h2>
-        <ul>
-            <li>
-                <h3>Nombre del Título o Curso</h3>
-                <p><strong>Institución:</strong> Nombre de la Institución</p>
-                <p><strong>Fecha de Graduación:</strong> Mes y Año</p>
-                <p><strong>Descripción:</strong> Breve descripción si es necesario.</p>
-            </li>
-            <!-- Agrega más elementos <li> para educación adicional si es necesario -->
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Primera habilidad</li>
-            <li>Segunda habilidad</li>
-            <li>Tercera habilidad</li>
-            <!-- Agrega más habilidades si es necesario -->
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Idiomas</h2>
-        <ul>
-            <li>Idioma 1 - Nivel</li>
-            <li>Idioma 2 - Nivel</li>
-            <!-- Agrega más idiomas si es necesario -->
-        </ul>
-    </div>
-
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
